@@ -1,15 +1,9 @@
-class Main {
+public class add {
 
-  public static void main(String[] args) {
-    
-    System.out.println("Enter two numbers");
-    int first = 10;
-    int second = 20;
-    
-    System.out.println(first + " " + second);
+   public static void main(String[] args) {
+        
+      int num1 = 5, num2 = 15;
 
-    // add two numbers
-    int sum = first + second;
-    System.out.println("The sum is: " + sum);
-  }
+      System.out.println(num1+num2);
+   }
 }
